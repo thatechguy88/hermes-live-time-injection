@@ -35,7 +35,7 @@ hermes plugins enable live-time-injection
 Per profile:
 
 ```bash
-hermes plugins enable live-time-injection --profile naevis
+hermes plugins enable live-time-injection --profile coder
 ```
 
 Restart your gateway:
