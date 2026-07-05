@@ -1,0 +1,10 @@
+name: live-time-injection
+version: "1.0"
+author: Justin Liu
+description: >-
+  Prepend a live [YYYY-MM-DD HH:MM TZ] timestamp to every user message so the
+  model always knows the current wall-clock time. Zero cache impact — context
+  is injected into the user message only, never the system prompt. Transcripts
+  stay clean (injection is ephemeral, not persisted).
+provides_hooks:
+  - pre_llm_call
